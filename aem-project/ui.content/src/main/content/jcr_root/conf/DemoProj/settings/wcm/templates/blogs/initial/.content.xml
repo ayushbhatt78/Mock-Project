@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:lastModified="{Date}2022-03-31T23:48:29.033+05:30"
+        cq:lastModifiedBy="admin"
+        cq:template="/conf/DemoProj/settings/wcm/templates/blogs"
+        jcr:primaryType="cq:PageContent"
+        sling:resourceType="wcm/foundation/components/page">
+        <root
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="wcm/foundation/components/responsivegrid">
+            <container_1881875138
+                jcr:created="{Date}2022-03-31T23:39:06.527+05:30"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2022-03-31T23:39:26.863+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="mysite/components/container"/>
+            <container_1349515878
+                jcr:created="{Date}2022-03-28T21:32:45.145+05:30"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2022-03-31T23:39:30.803+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="mysite/components/container"/>
+            <container
+                jcr:created="{Date}2022-03-28T21:31:26.507+05:30"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2022-03-31T23:39:35.199+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="mysite/components/container"/>
+        </root>
+    </jcr:content>
+</jcr:root>

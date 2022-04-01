@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:deviceGroups="[mobile/groups/responsive]"
+        cq:lastModified="{Date}2022-04-01T00:53:47.507+05:30"
+        cq:lastModifiedBy="admin"
+        cq:template="/conf/DemoProj/settings/wcm/templates/blog"
+        jcr:primaryType="cq:PageContent"
+        sling:resourceType="wcm/foundation/components/page">
+        <root
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="wcm/foundation/components/responsivegrid">
+            <container
+                jcr:created="{Date}2022-03-28T21:33:51.194+05:30"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2022-03-28T21:33:51.194+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="mysite/components/container"
+                editable="{Boolean}true"/>
+            <container_689318617
+                jcr:created="{Date}2022-03-28T21:33:57.812+05:30"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2022-03-28T21:33:57.812+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="mysite/components/container"
+                editable="{Boolean}true">
+                <cq:responsive jcr:primaryType="nt:unstructured">
+                    <default
+                        jcr:primaryType="nt:unstructured"
+                        offset="0"
+                        width="12"/>
+                </cq:responsive>
+            </container_689318617>
+            <container_1353898061
+                jcr:created="{Date}2022-03-28T21:34:02.263+05:30"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2022-03-28T21:34:02.263+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="mysite/components/container"
+                editable="{Boolean}true">
+                <cq:responsive jcr:primaryType="nt:unstructured">
+                    <default
+                        jcr:primaryType="nt:unstructured"
+                        offset="0"
+                        width="8"/>
+                </cq:responsive>
+            </container_1353898061>
+            <container_762367218
+                jcr:created="{Date}2022-03-28T21:35:29.642+05:30"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2022-03-28T21:35:29.642+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="mysite/components/container"
+                editable="{Boolean}true">
+                <cq:responsive jcr:primaryType="nt:unstructured">
+                    <default
+                        jcr:primaryType="nt:unstructured"
+                        offset="0"
+                        width="4"/>
+                </cq:responsive>
+            </container_762367218>
+            <container_343917928
+                jcr:created="{Date}2022-03-28T21:35:35.011+05:30"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2022-03-28T21:35:35.011+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="mysite/components/container"
+                editable="{Boolean}true">
+                <cq:responsive jcr:primaryType="nt:unstructured">
+                    <default
+                        jcr:primaryType="nt:unstructured"
+                        offset="0"
+                        width="8"/>
+                </cq:responsive>
+            </container_343917928>
+            <container_665364373
+                jcr:created="{Date}2022-03-30T11:34:31.711+05:30"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2022-03-30T11:34:31.711+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="mysite/components/container"
+                editable="{Boolean}true">
+                <cq:responsive jcr:primaryType="nt:unstructured">
+                    <default
+                        jcr:primaryType="nt:unstructured"
+                        offset="0"
+                        width="4"/>
+                </cq:responsive>
+            </container_665364373>
+            <container_569071617
+                jcr:created="{Date}2022-03-30T11:58:20.212+05:30"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2022-03-30T11:58:20.212+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="mysite/components/container"
+                editable="{Boolean}true"/>
+        </root>
+        <cq:responsive jcr:primaryType="nt:unstructured">
+            <breakpoints jcr:primaryType="nt:unstructured">
+                <phone
+                    jcr:primaryType="nt:unstructured"
+                    title="Smaller Screen"
+                    width="{Long}650"/>
+                <tablet
+                    jcr:primaryType="nt:unstructured"
+                    title="Tablet"
+                    width="{Long}1200"/>
+            </breakpoints>
+        </cq:responsive>
+    </jcr:content>
+</jcr:root>
